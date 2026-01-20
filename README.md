@@ -138,9 +138,3 @@ If you want to push performance further:
 
 - **Window freezes / not responding:** this project handles `pygame.QUIT` events inside `render()`. Keep `render()` inside the loop (as in `train.py`).
 - **Slow training:** rendering is the bottleneck. Consider disabling rendering during most episodes.
-
----
-
-## License
-
-Use freely for learning / demos. Add a license file if you plan to publish publicly.
